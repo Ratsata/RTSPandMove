@@ -1,0 +1,25 @@
+{
+  "name": "SivaAPI",
+  "version": "0.0.0",
+  "description": "Rest api for Siva App",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Ratsata/SivaAPI.git"
+  },
+  "keywords": [
+    "siva",
+    "api",
+    "rest"
+  ],
+  "author": "Sebastian Vega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/Ratsata/SivaAPI/issues"
+  },
+  "homepage": "https://gitlab.com/Ratsata/SivaAPI#README",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.14"
+  }
+}
