@@ -1,0 +1,31 @@
+<!--
+Archivo:         index.html
+Programa:        rtspStream
+Proyecto:        Siva
+Autor:           Sebastian Vega
+
+===========================================
+Fecha      |  Programador        | Detalles
+===========================================
+10-09-18      Sebastian Vega       Creacion
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SIVA Camera</title>
+<body style="margin:0%">
+    <canvas id="videoCanvas" style="width: 100%;margin:0%"></canvas>
+   
+    <script type="text/javascript" src="jsmpeg.js"></script>
+    <script type="text/javascript">
+      var canvas = document.getElementById('videoCanvas');
+      var ws = new WebSocket("ws://192.168.0.117:9999")    
+      var player = new jsmpeg(ws, {canvas:canvas, autoplay:true,audio:false,loop: true});
+    </script>
+
+</body>
+      
+</html>
