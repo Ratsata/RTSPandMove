@@ -8,10 +8,9 @@
  
     ws://localhost:9999
 
-
 ## Movimiento
 
  - callPTZ: *callPTZ(string uri)*
  Realiza el movimiento de la PTZ realizando llamadas a la camara con autentificacion digest
  
-    /callPTZ/cgi-bin/ptz.cgi?action=start&channel=1&code=Position&arg1=0&arg2=-1000&arg3=0
+        callPTZ/cgi-bin/ptz.cgi?action=start&channel=1&code=Position&arg1=0&arg2=-1000&arg3=0
